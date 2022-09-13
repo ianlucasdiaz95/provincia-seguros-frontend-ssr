@@ -7,7 +7,6 @@
             loop
             :autoplay="true"
             :speed="700"
-            :
             navigation
             
         >
