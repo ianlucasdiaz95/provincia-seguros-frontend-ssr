@@ -1,0 +1,44 @@
+// Brand colors
+$primary:  #00317a;
+
+// Base colors
+$white:  #fff;
+$black:  #111;
+$gray: #F0F0F0;
+$lightGray: #F8F8F8;
+$green: #25D366;
+
+// Fonts
+
+$primaryFont: 'Helvetica Neue', sans-serif;
+$secondaryFont: 'Helvetica Neue', sans-serif;
+
+//
+// Project Variables
+//
+
+//General
+$boxPadding: 16px;
+$containerMaxWidth: 1100px;
+$boxShadow: 0px 1px 7px rgba(0,0,0,0.1);
+$borderRadius: 8px;
+
+//Breakpoints
+$breakPointLarge: 1440px;
+$breakPointMedium: 991px;
+$breakPointSmall: 768px;
+$breakPointXSmall: 575px;
+
+// Header
+$headerLogoWidth: 120px;
+$headerHeight: 90px;
+
+//Hamburguer 
+$hamburguerHeight: 2px;
+$hamburguerWidth: 25px;
+$hamburguerSpace: 7px;
+
+//Footer
+$footerHeight: 60px;
+//Content
+$contentOffset: $footerHeight + $headerHeight;

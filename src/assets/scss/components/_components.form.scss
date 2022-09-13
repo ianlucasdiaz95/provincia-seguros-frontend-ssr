@@ -1,0 +1,103 @@
+.form{
+
+    &__row{
+        &.-two{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+
+            @media(max-width: 768px){
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+        }
+    }
+
+    &__input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        label{
+            font-size: 0.9em;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        select{
+            border: 1px solid $gray;
+            border-radius: $borderRadius;
+            padding: 12px;
+            outline-width: 1px;
+            outline-color: $primary;
+            transition: 200ms ease;
+            font-size: 0.9em;
+
+            &:focus{
+                border: 1px solid $primary
+            }
+        }
+
+        input{
+            border: 1px solid $gray;
+            border-radius: $borderRadius;
+            padding: 12px ;
+            outline: 0;
+            transition: 200ms ease;
+            font-size: 0.9em;
+            width: 100%;
+
+            &:focus {
+                border: 1px solid $primary
+            }
+
+            &[type="number"]{
+                appearance: none;
+            }
+
+            &::placeholder{
+                opacity: 0.4;
+            }
+
+            /* Chrome, Safari, Edge, Opera */
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+
+            /* Firefox */
+            &[type=number] {
+                -moz-appearance: textfield;
+            }
+        }
+
+        &Group{
+            display: flex;
+            gap: 5px;
+        }
+
+        &.-dni{
+            input{
+                flex-grow: 1;
+                
+            }
+            
+        }
+    }
+
+    &__error{
+        color: red;
+        font-size: 0.7em;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    &__submit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        
+    }
+}

@@ -1,0 +1,41 @@
+.-preventScroll{
+    overflow-y: hidden;
+}
+
+.-menuOpen{
+    background: $primary !important;
+    transform: rotate(-135deg);
+    &::after{
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    &::before{
+        background: $primary !important;
+        transform: rotate(90deg);
+        top: 0px !important;
+    }
+}
+
+.-isStuck{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    transform: translateY(-$headerHeight);
+    animation-fill-mode: both;
+    animation-name: stickyMenuSlide;
+    animation-duration: 300ms;
+    animation-delay: 500ms;
+}
+
+.-desktop{
+    @media screen and (max-width: 1000px){
+        display: none;
+    }
+}
+.-mobile{
+    display: none;
+    @media screen and (max-width: 1000px){
+        display: block;
+    }
+}

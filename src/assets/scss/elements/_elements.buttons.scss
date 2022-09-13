@@ -1,0 +1,36 @@
+.button{
+    padding: 12px 24px;
+    border-radius: $borderRadius;
+    background-color: $primary;
+    color: $white;
+    font-weight: 300;
+    border: 0;
+    transition: 300ms ease;
+    text-align: center;
+
+    @media(max-width: 768px){
+        padding: 10px 20px;
+    }
+
+    &:hover{
+        color: $white;
+        background-color: $black;
+    }
+
+    &.-big{
+        padding: 16px 32px;
+        font-size: 1.2em;
+    }
+
+    &.-alt{
+        background-color: $white;
+        color: $primary;
+        border: 1px solid $primary;
+
+        &:hover{
+            background-color: $gray;
+            color: $primary;
+            border-color: $black;
+        }
+    }
+}

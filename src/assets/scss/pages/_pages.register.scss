@@ -1,0 +1,19 @@
+.register{
+    
+    background-color: $white;
+
+    &__content{
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+
+    &__form{
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: $boxShadow;
+        border-radius: $borderRadius;
+        background-color: $lightGray;
+    }
+
+}

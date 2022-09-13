@@ -1,0 +1,33 @@
+.home{
+
+    &__cotizar{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    &__contact{
+        background-color: $primary;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        img{
+            max-width: 250px;
+            width: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    &__personas{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    &__empresas {
+        margin-top: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-top: 1px solid $gray;
+        background-color: $white;
+    }
+}

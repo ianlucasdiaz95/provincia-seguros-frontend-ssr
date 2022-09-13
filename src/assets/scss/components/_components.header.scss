@@ -1,0 +1,19 @@
+.header{
+    padding: 10px 0;
+    box-shadow: $boxShadow;
+    position: relative;
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    &__logo{
+        max-width: 150px;
+        img{
+            width: 100%;
+            vertical-align: top;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+// ITCSS Structure
+
+// 1 - Settings
+@import 'settings/settings.variables';
+
+
+// 2 - Generic
+@import 'generic/generic.normalize';
+
+
+// 3 - Elements
+@import 'elements/elements.base';
+@import 'elements/elements.headings';
+@import 'elements/elements.links';
+@import 'elements/elements.buttons';
+@import 'elements/elements.iframe';
+@import 'elements/elements.form';
+
+// 4 - Objects
+@import 'objects/objects.animations';
+
+// 5 - Components
+@import 'components/components.containers';
+@import 'components/components.header';
+@import 'components/components.nav';
+@import 'components/components.slider';
+@import 'components/components.titleBlock';
+@import 'components/components.grid';
+@import 'components/components.iconBox';
+@import 'components/components.footer';
+@import 'components/components.form';
+@import 'components/components.data';
+// 6 - Pages
+
+@import 'pages/pages.home';
+@import 'pages/pages.register';
+@import 'pages/pages.confirm';
+@import 'pages/pages.success';
+
+// 7 - Utilities
+
+@import 'utilities/utilities';
+
+

@@ -1,0 +1,41 @@
+.titleBlock{
+    margin-bottom: 50px;
+    &__title{
+        font-size: 2.6em;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    &__subtitle{
+        font-size: 1.2em;
+    }
+
+    &__actions{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    &.-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+
+        .titleBlock__actions{
+            align-items: center;
+        }
+    }
+
+    &.-small{
+        .titleBlock__title{
+            font-size: 2.3em;
+        }
+        .titleBlock__subtitle {
+            font-size: 1em;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+a{
+    color: $black;
+    transition: 300ms ease;
+    text-decoration: none;
+    &:hover{
+        color: $primary;
+        text-decoration: none;
+    }
+}

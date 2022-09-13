@@ -1,0 +1,8 @@
+.success {
+    background-color: $white;
+    min-height: 80vh;
+    &__content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
